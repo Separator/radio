@@ -1,0 +1,28 @@
+.widget {
+    display: inline-block;
+    margin: 30px auto 0;
+    background-color: rgba(90,90,90,0.5);
+    padding: 10px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-rendering: auto;
+}
+
+.widget > div {
+    display: inline-block;
+    margin: 0 22px;
+}
+
+.widget a {
+    display: inline-block;
+    line-height: 40px;
+    color: #ccc;
+    font-family: FontAwesome;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.widget a:hover {
+    color: #fe8a02;
+}
