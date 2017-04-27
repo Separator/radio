@@ -4,11 +4,13 @@
     <meta charset="utf-8" />
     <title>РАДИО ВОЛШЕБНОЕ</title>
 
-    <link rel="stylesheet" type="text/css" href="css/font-awesome-min.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <link rel="stylesheet" type="text/css" href="css/widget.css" />
-    <link rel="stylesheet" type="text/css" href="css/custom-player.css" />
-    <link rel="stylesheet" type="text/css" href="css/devices.css" />
+
+    <!-- Подключение библиотеки "Плеер" -->
+    <link rel="stylesheet" type="text/css" href="js/libs/player/css/player.css" />
+    <script src="js/libs/player/polyphylls/assign.js"></script>
+    <script src="js/libs/player/polyphylls/classList.js"></script>
+    <script src="js/libs/player/player.js"></script>
 
     <script src="js/index.js"></script>
 </head>
@@ -16,24 +18,7 @@
 <body>
 <div class="content">
     <div>
-        <h1>Волшебное радио</h1>
-
-        <h2>территория чуда</h2>
-
-        <div class="custom-player">
-            <div>
-                <div class="play disabled"></div>
-                <div class="stop"></div>
-                <input class="volume" type="range" min="0" max="1" value="1" step="0.1" />
-                <audio src="http://radiodom.hostingradio.ru:8013/beauty.radiodom128.mp3"></audio>
-            </div>
-        </div>
-
-        <div class="widget">
-            <div><a target="_blank" class="fa-facebook" href="https://www.facebook.com/volshebnoe/"></a></div>
-            <div><a target="_blank" class="fa-vk" href="https://vk.com/vtish77"></a></div>
-            <div><a target="_blank" class="fa-instagram" href="https://www.instagram.com/volshebnoeradio/"></a></div>
-        </div>
+        <div class="radio"></div>
     </div>
 </div>
 </body>

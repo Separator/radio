@@ -23,21 +23,6 @@ body * {
     user-select: none;
 }
 
-h1, h2 {
-    margin: 0 auto 14px;
-    color: white;
-    font-size: 20px;
-    font-weight: normal;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-h2 {
-    margin: 0 auto 30px;
-    font-size: 16px;
-    text-transform: none;
-}
-
 .content {
     display: table;
     width: 100%;
@@ -50,4 +35,8 @@ h2 {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+}
+
+.logo {
+    display: block;
 }

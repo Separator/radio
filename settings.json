@@ -1,0 +1,10 @@
+{
+  "socialNetworksList": [
+    [ "fa-facebook", "https://www.facebook.com/volshebnoe/" ],
+    [ "fa-vk", "https://vk.com/vtish77" ],
+    [ "fa-instagram", "https://www.instagram.com/volshebnoeradio/" ]
+  ],
+  "audioStreamURL": "https://tntradio.hostingradio.ru:18027/tntradio128.mp3",
+  "metaInformationURL": "https://metaserver.hostingradio.ru/tntradio.json",
+  "serverTimeURL": "server_time.php"
+}

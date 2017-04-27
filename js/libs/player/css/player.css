@@ -1,0 +1,120 @@
+@import "font-awesome-min.css";
+
+.sr-wrapper {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.sr-wrapper audio {
+    display: none;
+}
+
+/* Логотип */
+.sr-logo {
+    width: 350px;
+    height: 200px;
+    margin: 0 auto 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-image: url("../images/logo.png");
+}
+
+
+/* Логотип исполнителя */
+.sr-cover {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin: 0 auto 20px;
+}
+
+.sr-cover > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 350px 250px;
+}
+
+
+/* Анимация смены логотипа исполнителя */
+.sr-animated {
+    transition: opacity 5s;
+    -moz-transition: opacity 5s;
+    -o-transition: opacity 5s;
+    -webkit-transition: opacity 5s;
+}
+
+
+/* Панель управления */
+.sr-management {
+    width: 350px;
+    height: 100px;
+    margin: 0 auto 20px;
+    background-color: rgba(90,90,90,0.5);
+    text-align: center;
+}
+
+.sr-button-play,
+.sr-button-volume,
+.sr-button-paused {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 10px 22px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.sr-button-play {
+    background-image: url("../images/pause.png");
+}
+
+.sr-button-paused {
+    background-image: url("../images/play.png");
+}
+
+.sr-button-volume {
+    background-image: url("../images/volume.png");
+}
+
+
+/* Социальные сети */
+.sr-social-networks {
+    width: 350px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgba(90,90,90,0.5);
+    color: white;
+    text-align: center;
+    text-rendering: auto;
+}
+
+.sr-social-networks > div {
+    display: inline-block;
+    margin: 0 22px;
+}
+
+.sr-social-networks a {
+    display: inline-block;
+    color: #ccc;
+    font-family: FontAwesome;
+    font-size: 50px;
+    line-height: 100px;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.sr-social-networks a:hover {
+    color: #fe8a02;
+}

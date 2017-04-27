@@ -1,3 +1,30 @@
+/* 1366×768
+ Browser
+ */
+@media screen and (max-width:1367px) and (max-height:769px) and (min-width:1365px) and (min-height:767px) {
+    .logo {
+        width: 350px;
+        margin: 0 auto 20px;
+    }
+
+    .cover {
+        width: 350px;
+        height: 200px;
+        margin: 0 auto 20px;
+    }
+
+    .management {
+        width: 350px;
+        height: 100px;
+        margin: 0 auto 20px;
+    }
+
+
+}
+
+
+
+
 /* 640×960
  Apple iPhone 4/4S
  */
