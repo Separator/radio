@@ -42,7 +42,6 @@
             _coverSecondNode: null,
             _buttonPlayNode: null,
             _buttonVolumeNode: null,
-            _volumeBackgroundNode: null,
             _logoNode: null,
             _socialNode: null,
             _index: -1,
@@ -110,8 +109,6 @@
             // Кнопка "Volume":
             this._buttonVolumeNode = document.createElement( "DIV" );
             this._buttonVolumeNode.classList.add( this.cssButtonVolume );
-            this._volumeBackgroundNode = document.createElement( "DIV" );
-            this._buttonVolumeNode.appendChild( this._volumeBackgroundNode );
             managementNode.appendChild( this._buttonVolumeNode );
             wrapper.appendChild( managementNode );
             // Добавляем поведение к кнопкам:
@@ -148,12 +145,10 @@
         }.bind( this ), false );
         this._buttonVolumeNode.addEventListener( "mouseup", function ( e ) {
             this._isChangeVolumeNow = false;
-            this._updateVolume( e );
         }.bind( this ), false );
-        this._buttonVolumeNode.addEventListener( "mouseout", function ( e ) {
+        /*this._buttonVolumeNode.addEventListener( "mouseout", function ( e ) {
             this._isChangeVolumeNow = false;
-            this._updateVolume( e );
-        }.bind( this ), false );
+        }.bind( this ), false );*/
         this._buttonVolumeNode.addEventListener( "mousemove", function ( e ) {
             if ( this._isChangeVolumeNow ) {
                 this._updateVolume( e );
@@ -164,16 +159,13 @@
     SimpleRadio.prototype._updateVolume = function ( e ) {
         var currentVolume = this._getVolumeByAction( e );
         this._audioNode.volume = currentVolume;
-        this._volumeBackgroundNode.style.height = Math.ceil( currentVolume * 100 ) + "%";
+        this._buttonVolumeNode.setAttribute( "volume", currentVolume * 100 );
     };
 
     SimpleRadio.prototype._getVolumeByAction = function ( e ) {
         var y = ( e.offsetY == undefined ) ? e.layerY : e.offsetY;
         var height = this._buttonVolumeNode.clientHeight;
-        if ( e.target == this._volumeBackgroundNode ) {
-            y = height - this._volumeBackgroundNode.clientHeight + y;
-        };
-        return ( height - y ) / height;
+        return Math.round( ( ( height - y ) / height ) * 10) / 10;
     };
 
     SimpleRadio.prototype.toggle = function () {

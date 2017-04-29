@@ -93,17 +93,30 @@
     background-image: url("../images/volume-disabled.png");
 }
 
-.sr-button-volume > div {
+.sr-button-volume::after {
+    content: "";
+    display: block;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-image: url("../images/volume.png");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
+    background-position: bottom left;
+    background-size: 80px;
 }
+
+.sr-button-volume[volume="100"]::after { height: 100%; }
+.sr-button-volume[volume="90"]::after  { height: 90%;  }
+.sr-button-volume[volume="80"]::after  { height: 80%;  }
+.sr-button-volume[volume="70"]::after  { height: 70%;  }
+.sr-button-volume[volume="60"]::after  { height: 60%;  }
+.sr-button-volume[volume="50"]::after  { height: 50%;  }
+.sr-button-volume[volume="40"]::after  { height: 40%;  }
+.sr-button-volume[volume="30"]::after  { height: 30%;  }
+.sr-button-volume[volume="20"]::after  { height: 20%;  }
+.sr-button-volume[volume="10"]::after  { height: 10%;  }
+.sr-button-volume[volume="0"]::after   { height: 0%;   }
 
 
 /* Социальные сети */
