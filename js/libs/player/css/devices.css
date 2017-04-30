@@ -1,0 +1,1232 @@
+/* 1366×768
+ Browser
+ */
+@media screen and (max-width:1367px) and (max-height:769px) and (min-width:1365px) and (min-height:767px) {
+    .sr-wrapper {
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 350px;
+        height: 200px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 350px;
+        height: 250px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-management {
+        width: 350px;
+        height: 100px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-social-networks {
+        width: 350px;
+        height: 100px;
+        margin: 0 auto;
+    }
+}
+
+/* 640×960
+ Apple iPhone 4/4S
+ */
+@media screen and (max-width:642px) and (max-height:962px) and (min-width:638px) and (min-height:958px) {
+    .sr-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover > div {
+        background-size: 500px 300px;
+    }
+
+    .sr-management {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+/* 640×1136
+ Apple iPhone 5
+ Apple iPhone 5C/5S
+ */
+@media screen and (max-width:642px) and (max-height:1138px) and (min-width:638px) and (min-height:1134px) {
+    .sr-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover > div {
+        background-size: 500px 500px;
+    }
+
+    .sr-management {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+/* 1334×750
+ Apple iPhone 6
+ Apple iPhone 6S
+ Apple iPhone 7
+ */
+@media screen and (max-width:1336px) and (max-height:752px) and (min-width:1332px) and (min-height:748px) {
+    .sr-wrapper {
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 350px;
+        height: 200px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 350px;
+        height: 250px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-management {
+        width: 350px;
+        height: 100px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-social-networks {
+        width: 350px;
+        height: 100px;
+        margin: 0 auto;
+    }
+}
+
+/* 1920×1080
+ Apple iPhone 6 Plus
+ Apple iPhone 6S Plus
+ Apple iPhone 7 Plus
+ Huawei Honor 5X, Huawei Honor 7
+ Lenovo Vibe Shot
+ Meizu M2 Note 16Gb
+ Samsung Galaxy A5 2016
+ */
+@media screen and (max-width:1922px) and (max-height:1082px) and (min-width:1918px) and (min-height:1078px) {
+    .sr-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 500px;
+        height: 400px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover > div {
+        background-size: 500px 400px;
+    }
+
+    .sr-management {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+/* 1136×640
+ Apple iPhone SE
+ */
+@media screen and (max-width:1138px) and (max-height:642px) and (min-width:1134px) and (min-height:638px) {
+    .sr-wrapper {
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 350px;
+        height: 190px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-cover {
+        width: 350px;
+        height: 200px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-cover > div {
+        background-size: 350px 200px;
+    }
+
+    .sr-management {
+        width: 350px;
+        height: 80px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 70px;
+        height: 70px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 70px;
+    }
+
+    .sr-social-networks {
+        width: 350px;
+        height: 70px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks a {
+        line-height: 70px;
+    }
+}
+
+/* 1280×720
+ ASUS Zenfone 2 Lazer ZE500KL
+ Lenovo P70
+ Lenovo S60
+ Samsung Galaxy A5
+ ASUS Zenfone 2 Lazer ZE500KL
+ */
+@media screen and (max-width:1282px) and (max-height:722px) and (min-width:1278px) and (min-height:718px) {
+    .sr-wrapper {
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 350px;
+        height: 200px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 350px;
+        height: 250px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-management {
+        width: 350px;
+        height: 100px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-social-networks {
+        width: 350px;
+        height: 100px;
+        margin: 0 auto;
+    }
+}
+
+/* 640×480
+ BlackBerry Bold 9900
+ */
+@media screen and (max-width:642px) and (max-height:482px) and (min-width:638px) and (min-height:478px) {
+    .content > div {
+        vertical-align: top;
+    }
+
+    .sr-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        display: inline-block;
+        width: 245px;
+        height: 150px;
+        margin: 10px 10px 20px 0;
+    }
+
+    .sr-cover {
+        display: inline-block;
+        width: 245px;
+        height: 150px;
+        margin: 10px 0 20px 0;
+    }
+
+    .sr-cover > div {
+        background-size: 245px 150px;
+    }
+
+    .sr-management {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+/* 768×1280
+ BlackBerry Z10
+ LG Nexus 4 16Gb
+ LG Optimus G
+ Nokia Lumia 920
+ Nokia Lumia 925
+ */
+@media screen and (max-width:770px) and (max-height:1282px) and (min-width:766px) and (min-height:1278px) {
+    .sr-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover > div {
+        background-size: 500px 500px;
+    }
+
+    .sr-management {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+/* 720×1280
+ Fly IQ451 Vista
+ HTC One X
+ HTC One X+
+ HTC Windows Phone 8x
+ Huawei Ascend G630
+ LG Optimus 4X HD
+ Samsung Ativ S 16Gb GT-I8750
+ Samsung Galaxy Mega 6.3 8Gb GT-I9200
+ Samsung Galaxy Nexus GT-I9250
+ Samsung Galaxy Note II GT-N7100
+ Samsung Galaxy S III GT-I9300 16Gb
+ Sony Xperia acro S
+ Sony Xperia ion
+ Sony Xperia S
+ Sony Xperia SP
+ Sony Xperia TX
+ Sony Xperia V
+ Sony Xperia Z1 Compact
+ Sony Xperia ZR LTE (C5503)
+ YotaPhone - цвет.
+ */
+@media screen and (max-width:722px) and (max-height:1282px) and (min-width:718px) and (min-height:1278px) {
+    .sr-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover > div {
+        background-size: 500px 500px;
+    }
+
+    .sr-management {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+/* 540×960
+ HTC Desire 600
+ HTC One S
+ Lenovo IdeaPhone P770
+ Lenovo IdeaPhone S720
+ LG Optimus L9
+ Philips Xenium W832
+ Samsung Galaxy Mega 5.8 GT-I9152
+ Samsung Galaxy S4 mini GT-I9190
+ Samsung Galaxy S4 mini GT-I9195
+ Samsung Galaxy S4 Zoom SM-C101
+ Sony Xperia P
+ */
+@media screen and (max-width:542px) and (max-height:962px) and (min-width:538px) and (min-height:958px) {
+    .sr-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover > div {
+        background-size: 500px 300px;
+    }
+
+    .sr-management {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+/* 320×480
+ HTC Desire C
+ LG Optimus L5
+ Samsung Galaxy Ace Duos GT-S6802
+ Samsung Galaxy Ace GT-S5830
+ Sony Xperia E dual
+ Sony Xperia go
+ Sony Xperia miro
+ Sony Xperia tipo
+ */
+@media screen and (max-width:322px) and (max-height:482px) and (min-width:318px) and (min-height:478px) {
+    .content > div {
+        vertical-align: top;
+    }
+
+    .sr-wrapper {
+        width: 300px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 300px;
+        height: 100px;
+        margin: 10px auto 5px;
+    }
+
+    .sr-cover {
+        width: 300px;
+        height: 150px;
+        margin: 0 auto 5px;
+    }
+
+    .sr-cover > div {
+        background-size: 300px 150px;
+    }
+
+    .sr-management {
+        width: 300px;
+        height: 100px;
+        margin: 0 auto 5px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 80px;
+        height: 80px;
+        margin: 10px 20px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 80px;
+    }
+
+    .sr-social-networks {
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 10px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 60px;
+        line-height: 80px;
+    }
+}
+
+/* 480×800
+ HTC Desire SV
+ HTC Desire V
+ HTC Desire X
+ HTC One SV
+ HTC Windows Phone 8s
+ LG Optimus L5 II Dual E455
+ LG Optimus L7 II Dual P715
+ LG Optimus L7 P705
+ Nokia Lumia 520
+ Nokia Lumia 620
+ Nokia Lumia 720
+ Nokia Lumia 800
+ Nokia Lumia 820
+ Nokia X Dual Sim
+ Philips Xenium W732
+ Samsung Galaxy Ace II GT-I8160
+ Samsung Galaxy Grand GT-I9082
+ Samsung Galaxy S Duos GT-S7562
+ Samsung Galaxy S II GT-I9100
+ Samsung Galaxy S II Plus GT-I9105
+ Samsung Galaxy S III mini GT-I8190
+ Samsung Galaxy Win GT-I8552
+ */
+@media screen and (max-width:482px) and (max-height:802px) and (min-width:478px) and (min-height:798px) {
+    .sr-wrapper {
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-cover {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-cover > div {
+        background-size: 400px 250px;
+    }
+
+    .sr-management {
+        width: 400px;
+        height: 130px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 400px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+/* 1080×1920
+ HTC One
+ HTC One 32Gb
+ Huawei Honor 6
+ Jiayu G6 Advanced
+ Lenovo K900
+ LG G2 D802
+ LG Nexus 5
+ LG Optimus G Pro E988
+ Samsung Galaxy S4 GT-I9500
+ Samsung Galaxy S4 GT-I9505
+ Samsung Galaxy S5
+ Sony Xperia Z
+ Sony Xperia Z1
+ Sony Xperia Z2
+ Sony Xperia ZL
+ */
+@media screen and (max-width:1082px) and (max-height:1922px) and (min-width:1079px) and (min-height:1918px) {
+    .sr-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 600px;
+        height: 400px;
+        margin: 0 auto 40px;
+    }
+
+    .sr-cover {
+        width: 600px;
+        height: 600px;
+        margin: 0 auto 40px;
+    }
+
+    .sr-cover > div {
+        background-size: 600px 600px;
+    }
+
+    .sr-management {
+        width: 600px;
+        height: 200px;
+        margin: 0 auto 40px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 40px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 600px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 40px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+/* 360×640
+ Nokia 808 PureView
+ YotaPhone - чб
+ */
+@media screen and (max-width:362px) and (max-height:642px) and (min-width:358px) and (min-height:638px) {
+    .content > div {
+        vertical-align: top;
+    }
+
+    .sr-wrapper {
+        width: 300px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 300px;
+        height: 100px;
+        margin: 10px auto 5px;
+    }
+
+    .sr-cover {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto 5px;
+    }
+
+    .sr-cover > div {
+        background-size: 300px 300px;
+    }
+
+    .sr-management {
+        width: 300px;
+        height: 100px;
+        margin: 0 auto 5px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 80px;
+        height: 80px;
+        margin: 10px 20px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 80px;
+    }
+
+    .sr-social-networks {
+        width: 300px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 10px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 60px;
+        line-height: 80px;
+    }
+}
+
+/* 240×400
+ Nokia Asha 311
+ */
+@media screen and (max-width:242px) and (max-height:402px) and (min-width:238px) and (min-height:398px) {
+    .content > div {
+        vertical-align: top;
+    }
+
+    .sr-wrapper {
+        width: 220px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 220px;
+        height: 90px;
+        margin: 15px auto 5px;
+    }
+
+    .sr-cover {
+        width: 220px;
+        height: 130px;
+        margin: 0 auto 5px;
+    }
+
+    .sr-cover > div {
+        background-size: 220px 130px;
+    }
+
+    .sr-management {
+        width: 220px;
+        height: 70px;
+        margin: 0 auto 5px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 60px;
+        height: 60px;
+        margin: 5px 10px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 60px;
+    }
+
+    .sr-social-networks {
+        width: 220px;
+        height: 70px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 10px;
+    }
+
+    .sr-social-networks a {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+/* 800×1280
+ Samsung Galaxy Note GT-N7000
+ */
+@media screen and (max-width:802px) and (max-height:1282px) and (min-width:798px) and (min-height:1278px) {
+    .sr-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover > div {
+        background-size: 500px 500px;
+    }
+
+    .sr-management {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+
+/* 2560×1440
+ Samsung Galaxy S6 SM-G920F
+ */
+@media screen and (max-width:2562px) and (max-height:1442px) and (min-width:2558px) and (min-height:1438px) {
+    .sr-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 500px;
+        height: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-cover > div {
+        background-size: 500px 500px;
+    }
+
+    .sr-management {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto 20px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 500px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}
+
+/* 240×320
+ Samsung Galaxy Y Duos GT-S6102
+ Samsung Galaxy Y GT-S5360
+ */
+@media screen and (max-width:242px) and (max-height:322px) and (min-width:238px) and (min-height:318px) {
+    .sr-wrapper {
+        width: 220px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        display: inline-block;
+        width: 110px;
+        height: 50px;
+        margin: 15px auto 5px;
+    }
+
+    .sr-cover {
+        display: inline-block;
+        width: 110px;
+        height: 50px;
+        margin: 0 auto 5px;
+    }
+
+    .sr-cover > div {
+        background-size: 110px 50px;
+    }
+
+    .sr-management {
+        width: 220px;
+        height: 70px;
+        margin: 0 auto 5px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 60px;
+        height: 60px;
+        margin: 5px 10px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 60px;
+    }
+
+    .sr-social-networks {
+        width: 220px;
+        height: 70px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 10px;
+    }
+
+    .sr-social-networks a {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+/* 480×854
+ Sony Xperia J
+ Sony Xperia L
+ Sony Xperia sola
+ */
+@media screen and (max-width:482px) and (max-height:856px) and (min-width:478px) and (min-height:852px) {
+    .sr-wrapper {
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-cover {
+        width: 400px;
+        height: 250px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-cover > div {
+        background-size: 400px 250px;
+    }
+
+    .sr-management {
+        width: 400px;
+        height: 130px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-button-play,
+    .sr-button-volume,
+    .sr-button-paused {
+        width: 120px;
+        height: 120px;
+        margin: 5px 22px;
+    }
+
+    .sr-button-volume::after {
+        background-size: 120px;
+    }
+
+    .sr-social-networks {
+        width: 400px;
+        height: 130px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 5px 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 80px;
+        line-height: 120px;
+    }
+}

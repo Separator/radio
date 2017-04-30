@@ -50,6 +50,8 @@
             _isChangeVolumeNow: false,
 
             autoPlay: false,
+            saveVolume: true,
+            saveState: true,
 
             cssWrapper: "sr-wrapper",
             cssLogo: "sr-logo",
