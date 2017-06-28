@@ -14,7 +14,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('../images/background.jpg');
+    /*background-image: url('../images/background.jpg');*/
+    background-color: #FFF;
 }
 
 body * {
