@@ -1,10 +1,8 @@
 @import "font-awesome-min.css";
 
+/* Вмещающий блок */
 .sr-wrapper {
     display: block;
-    width: 400px;
-    margin: 0 auto;
-    padding: 0;
     text-align: center;
 }
 
@@ -14,9 +12,6 @@
 
 /* Логотип */
 .sr-logo {
-    width: 350px;
-    height: 200px;
-    margin: 0 auto 20px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -27,9 +22,6 @@
 /* Логотип исполнителя */
 .sr-cover {
     position: relative;
-    width: 350px;
-    height: 250px;
-    margin: 0 auto 20px;
 }
 
 .sr-cover > div {
@@ -42,7 +34,7 @@
     padding: 0;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 350px 250px;
+    background-size: cover;
     transition: opacity 0s;
     -moz-transition: opacity 0s;
     -o-transition: opacity 0s;
@@ -61,20 +53,14 @@
 
 /* Панель управления */
 .sr-management {
-    width: 350px;
-    height: 100px;
-    margin: 0 auto 20px;
     background-color: rgba(90,90,90,0.5);
     text-align: center;
 }
 
 .sr-button-play,
-.sr-button-volume,
-.sr-button-paused {
+.sr-button-minus,
+.sr-button-plus {
     display: inline-block;
-    width: 80px;
-    height: 80px;
-    margin: 10px 22px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -84,46 +70,29 @@
     background-image: url("../images/pause.png");
 }
 
-.sr-button-paused {
+.sr-wrapper.sr-paused .sr-button-play {
     background-image: url("../images/play.png");
 }
 
-.sr-button-volume {
-    position: relative;
-    background-image: url("../images/volume-disabled.png");
+.sr-button-minus {
+    background-image: url("../images/minus.png");
 }
 
-.sr-button-volume::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/volume.png");
-    background-position: bottom left;
-    background-size: 80px;
+.sr-wrapper.sr-volume-min .sr-button-minus {
+    background-image: url("../images/volume-min.png");
 }
 
-.sr-button-volume[volume="100"]::after { height: 100%; }
-.sr-button-volume[volume="90"]::after  { height: 90%;  }
-.sr-button-volume[volume="80"]::after  { height: 80%;  }
-.sr-button-volume[volume="70"]::after  { height: 70%;  }
-.sr-button-volume[volume="60"]::after  { height: 60%;  }
-.sr-button-volume[volume="50"]::after  { height: 50%;  }
-.sr-button-volume[volume="40"]::after  { height: 40%;  }
-.sr-button-volume[volume="30"]::after  { height: 30%;  }
-.sr-button-volume[volume="20"]::after  { height: 20%;  }
-.sr-button-volume[volume="10"]::after  { height: 10%;  }
-.sr-button-volume[volume="0"]::after   { height: 0%;   }
+.sr-button-plus {
+    background-image: url("../images/plus.png");
+}
+
+.sr-wrapper.sr-volume-max .sr-button-plus {
+    background-image: url("../images/volume-max.png");
+}
 
 
 /* Социальные сети */
 .sr-social-networks {
-    width: 350px;
-    height: 100px;
-    margin: 0 auto;
     background-color: rgba(90,90,90,0.5);
     color: white;
     text-align: center;
@@ -132,15 +101,12 @@
 
 .sr-social-networks > div {
     display: inline-block;
-    margin: 0 22px;
 }
 
 .sr-social-networks a {
     display: inline-block;
     color: #ccc;
     font-family: FontAwesome;
-    font-size: 50px;
-    line-height: 100px;
     text-decoration: none;
     transition: color 0.2s linear;
 }

@@ -41,17 +41,17 @@
             _coverFirstNode: null,
             _coverSecondNode: null,
             _buttonPlayNode: null,
-            _buttonVolumeNode: null,
+            _buttonMinusNode: null,
+            _buttonPlusNode: null,
             _logoNode: null,
             _socialNode: null,
             _index: -1,
             _trackServerTime: null,
             _trackInfo: null,
-            _isChangeVolumeNow: false,
 
+            defaultVolume: 1,
+            changeVolumeStep: 0.1,
             autoPlay: false,
-            saveVolume: true,
-            saveState: true,
 
             cssWrapper: "sr-wrapper",
             cssLogo: "sr-logo",
@@ -59,8 +59,12 @@
             cssManagement: "sr-management",
             cssSocialNetworks: "sr-social-networks",
             cssButtonPlay: "sr-button-play",
-            cssButtonVolume: "sr-button-volume",
-            cssButtonPaused: "sr-button-paused",
+            cssButtonMinus: "sr-button-minus",
+            cssButtonPlus: "sr-button-plus",
+
+            cssPaused: "sr-paused",
+            cssVolumeMin: "sr-volume-min",
+            cssVolumeMax: "sr-volume-max",
             cssAnimated: "sr-animated",
 
             socialNetworksTarget: "_blank",
@@ -73,6 +77,7 @@
         };
         Object.assign( this, defaultOptions, options || {} );
         this._render();
+        this.setVolume( this.defaultVolume );
         if ( this.autoPlay ) {
             this.play();
         };
@@ -83,6 +88,7 @@
             var wrapper = this.wrapper;
             wrapper.innerHTML = "";
             wrapper.classList.add( this.cssWrapper );
+            wrapper.classList.add( this.cssPaused );
             // Добавляем узел "Аудио":
             this._audioNode = document.createElement( "AUDIO" );
             this._audioNode.src = this.audioStreamURL;
@@ -103,15 +109,18 @@
             var managementNode = document.createElement( "DIV" );
             managementNode.classList.add( this.cssManagement );
             wrapper.appendChild( managementNode );
+            // Кнопка "Minus":
+            this._buttonMinusNode = document.createElement( "DIV" );
+            this._buttonMinusNode.classList.add( this.cssButtonMinus );
+            managementNode.appendChild( this._buttonMinusNode );
             // Кнопка "Play":
             this._buttonPlayNode = document.createElement( "DIV" );
             this._buttonPlayNode.classList.add( this.cssButtonPlay );
-            this._buttonPlayNode.classList.add( this.cssButtonPaused );
             managementNode.appendChild( this._buttonPlayNode );
-            // Кнопка "Volume":
-            this._buttonVolumeNode = document.createElement( "DIV" );
-            this._buttonVolumeNode.classList.add( this.cssButtonVolume );
-            managementNode.appendChild( this._buttonVolumeNode );
+            // Кнопка "Plus":
+            this._buttonPlusNode = document.createElement( "DIV" );
+            this._buttonPlusNode.classList.add( this.cssButtonPlus );
+            managementNode.appendChild( this._buttonPlusNode );
             wrapper.appendChild( managementNode );
             // Добавляем поведение к кнопкам:
             this._addBehavior();
@@ -140,34 +149,27 @@
         this._buttonPlayNode.addEventListener( "click", function () {
             this.toggle();
         }.bind( this ), false );
-        // Регулятор громкости:
-        this._buttonVolumeNode.addEventListener( "mousedown", function ( e ) {
-            this._isChangeVolumeNow = true;
-            this._updateVolume( e );
+        // Кнопка уменьшения громкости:
+        this._buttonMinusNode.addEventListener( "click", function () {
+            this.setVolume( this._audioNode.volume - this.changeVolumeStep );
         }.bind( this ), false );
-        this._buttonVolumeNode.addEventListener( "mouseup", function ( e ) {
-            this._isChangeVolumeNow = false;
-        }.bind( this ), false );
-        /*this._buttonVolumeNode.addEventListener( "mouseout", function ( e ) {
-            this._isChangeVolumeNow = false;
-        }.bind( this ), false );*/
-        this._buttonVolumeNode.addEventListener( "mousemove", function ( e ) {
-            if ( this._isChangeVolumeNow ) {
-                this._updateVolume( e );
-            };
+        // Кнопка увеличения громкости:
+        this._buttonPlusNode.addEventListener( "click", function () {
+            this.setVolume( this._audioNode.volume + this.changeVolumeStep );
         }.bind( this ), false );
     };
 
-    SimpleRadio.prototype._updateVolume = function ( e ) {
-        var currentVolume = this._getVolumeByAction( e );
-        this._audioNode.volume = currentVolume;
-        this._buttonVolumeNode.setAttribute( "volume", currentVolume * 100 );
-    };
-
-    SimpleRadio.prototype._getVolumeByAction = function ( e ) {
-        var y = ( e.offsetY == undefined ) ? e.layerY : e.offsetY;
-        var height = this._buttonVolumeNode.clientHeight;
-        return Math.round( ( ( height - y ) / height ) * 10) / 10;
+    SimpleRadio.prototype.setVolume = function ( volume ) {
+        volume = ( volume < 0 ) ? 0 : ( ( volume > 1 ) ? 1 : volume );
+        this._audioNode.volume = volume;
+        if ( ! volume ) {
+            this.wrapper.classList.add( this.cssVolumeMin );
+        } else if ( volume == 1 ) {
+            this.wrapper.classList.add( this.cssVolumeMax );
+        } else {
+            this.wrapper.classList.remove( this.cssVolumeMin );
+            this.wrapper.classList.remove( this.cssVolumeMax );
+        };
     };
 
     SimpleRadio.prototype.toggle = function () {
@@ -181,7 +183,7 @@
     SimpleRadio.prototype.play = function () {
         if ( this._audioNode.paused ) {
             this._audioNode.play();
-            this._buttonPlayNode.classList.remove( this.cssButtonPaused );
+            this.wrapper.classList.remove( this.cssPaused );
             this._startTracking();
         };
     };
@@ -189,7 +191,7 @@
     SimpleRadio.prototype.stop = function () {
         if ( ! this._audioNode.paused ) {
             this._audioNode.pause();
-            this._buttonPlayNode.classList.add( this.cssButtonPaused );
+            this.wrapper.classList.add( this.cssPaused );
             this._stopTracking();
         };
     };

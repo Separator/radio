@@ -1,35 +1,81 @@
-/* 1366×768
- Browser
+/* 4000×4000
+ Alll
  */
-@media screen and (max-width:1367px) and (max-height:769px) and (min-width:1365px) and (min-height:767px) {
+@media screen and (max-width:4000px) and (max-height:4000px) and (min-width:1px) and (min-height:1px) {
     .sr-wrapper {
-        width: 400px;
+        width: 350px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        width: 350px;
-        height: 200px;
+        width: 300px;
+        height: 170px;
         margin: 0 auto 20px;
     }
 
     .sr-cover {
-        width: 350px;
-        height: 250px;
+        width: 300px;
+        height: 200px;
         margin: 0 auto 20px;
     }
 
     .sr-management {
-        width: 350px;
-        height: 100px;
+        width: 300px;
+        height: 80px;
         margin: 0 auto 20px;
     }
 
+    .sr-button-play,
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 60px;
+        height: 60px;
+        margin: 10px 5px;
+    }
+
+    .sr-button-minus {
+        background-size: 50px;
+    }
+
+    .sr-button-plus {
+        background-size: 50px;
+    }
+
     .sr-social-networks {
-        width: 350px;
-        height: 100px;
+        width: 300px;
+        height: 80px;
         margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 0 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 45px;
+        line-height: 80px;
+    }
+}
+
+/* 1024x600
+ Browser
+ */
+@media screen and (max-width:1025px) and (max-height:601px) and (min-width:1023px) and (min-height:599px) {
+    .sr-logo {
+        width: 300px;
+        height: 170px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-cover {
+        margin: 0 auto 10px;
+    }
+
+    .sr-management {
+        width: 300px;
+        height: 80px;
+        margin: 0 auto 10px;
     }
 }
 
@@ -38,58 +84,58 @@
  */
 @media screen and (max-width:642px) and (max-height:962px) and (min-width:638px) and (min-height:958px) {
     .sr-wrapper {
-        width: 500px;
+        width: 600px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        width: 500px;
-        height: 300px;
+        width: 550px;
+        height: 250px;
         margin: 0 auto 20px;
     }
 
     .sr-cover {
-        width: 500px;
-        height: 300px;
+        width: 550px;
+        height: 250px;
         margin: 0 auto 20px;
-    }
-
-    .sr-cover > div {
-        background-size: 500px 300px;
     }
 
     .sr-management {
-        width: 500px;
-        height: 130px;
-        margin: 0 auto 20px;
+        width: 550px;
+        height: 180px;
+        margin: 0 auto 30px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 120px;
-        height: 120px;
-        margin: 5px 22px;
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 140px;
+        height: 140px;
+        margin: 20px 5px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 100px;
+    }
+
+    .sr-button-plus {
+        background-size: 100px;
     }
 
     .sr-social-networks {
-        width: 500px;
-        height: 130px;
+        width: 550px;
+        height: 180px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 100px;
+        line-height: 180px;
     }
 }
 
@@ -99,58 +145,58 @@
  */
 @media screen and (max-width:642px) and (max-height:1138px) and (min-width:638px) and (min-height:1134px) {
     .sr-wrapper {
-        width: 500px;
+        width: 600px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        width: 500px;
+        width: 550px;
         height: 300px;
         margin: 0 auto 20px;
     }
 
     .sr-cover {
-        width: 500px;
-        height: 500px;
+        width: 550px;
+        height: 350px;
         margin: 0 auto 20px;
-    }
-
-    .sr-cover > div {
-        background-size: 500px 500px;
     }
 
     .sr-management {
-        width: 500px;
-        height: 130px;
-        margin: 0 auto 20px;
+        width: 550px;
+        height: 180px;
+        margin: 0 auto 30px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 120px;
-        height: 120px;
-        margin: 5px 22px;
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 140px;
+        height: 140px;
+        margin: 20px 5px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 100px;
+    }
+
+    .sr-button-plus {
+        background-size: 100px;
     }
 
     .sr-social-networks {
-        width: 500px;
-        height: 130px;
+        width: 550px;
+        height: 180px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 100px;
+        line-height: 180px;
     }
 }
 
@@ -160,35 +206,7 @@
  Apple iPhone 7
  */
 @media screen and (max-width:1336px) and (max-height:752px) and (min-width:1332px) and (min-height:748px) {
-    .sr-wrapper {
-        width: 400px;
-        margin: 0 auto;
-        padding: 0;
-    }
 
-    .sr-logo {
-        width: 350px;
-        height: 200px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-cover {
-        width: 350px;
-        height: 250px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-management {
-        width: 350px;
-        height: 100px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-social-networks {
-        width: 350px;
-        height: 100px;
-        margin: 0 auto;
-    }
 }
 
 /* 1920×1080
@@ -202,58 +220,58 @@
  */
 @media screen and (max-width:1922px) and (max-height:1082px) and (min-width:1918px) and (min-height:1078px) {
     .sr-wrapper {
-        width: 500px;
+        width: 700px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        width: 500px;
-        height: 300px;
-        margin: 0 auto 20px;
+        width: 650px;
+        height: 320px;
+        margin: 0 auto 30px;
     }
 
     .sr-cover {
-        width: 500px;
-        height: 400px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-cover > div {
-        background-size: 500px 400px;
+        width: 650px;
+        height: 320px;
+        margin: 0 auto 30px;
     }
 
     .sr-management {
-        width: 500px;
-        height: 130px;
+        width: 650px;
+        height: 160px;
         margin: 0 auto 20px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
+    .sr-button-minus,
+    .sr-button-plus {
         width: 120px;
         height: 120px;
-        margin: 5px 22px;
+        margin: 20px 10px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 90px;
+    }
+
+    .sr-button-plus {
+        background-size: 90px;
     }
 
     .sr-social-networks {
-        width: 500px;
-        height: 130px;
+        width: 650px;
+        height: 160px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 90px;
+        line-height: 160px;
     }
 }
 
@@ -261,55 +279,7 @@
  Apple iPhone SE
  */
 @media screen and (max-width:1138px) and (max-height:642px) and (min-width:1134px) and (min-height:638px) {
-    .sr-wrapper {
-        width: 400px;
-        margin: 0 auto;
-        padding: 0;
-    }
 
-    .sr-logo {
-        width: 350px;
-        height: 190px;
-        margin: 0 auto 10px;
-    }
-
-    .sr-cover {
-        width: 350px;
-        height: 200px;
-        margin: 0 auto 10px;
-    }
-
-    .sr-cover > div {
-        background-size: 350px 200px;
-    }
-
-    .sr-management {
-        width: 350px;
-        height: 80px;
-        margin: 0 auto 10px;
-    }
-
-    .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 70px;
-        height: 70px;
-        margin: 5px 22px;
-    }
-
-    .sr-button-volume::after {
-        background-size: 70px;
-    }
-
-    .sr-social-networks {
-        width: 350px;
-        height: 70px;
-        margin: 0 auto;
-    }
-
-    .sr-social-networks a {
-        line-height: 70px;
-    }
 }
 
 /* 1280×720
@@ -320,100 +290,70 @@
  ASUS Zenfone 2 Lazer ZE500KL
  */
 @media screen and (max-width:1282px) and (max-height:722px) and (min-width:1278px) and (min-height:718px) {
-    .sr-wrapper {
-        width: 400px;
-        margin: 0 auto;
-        padding: 0;
-    }
 
-    .sr-logo {
-        width: 350px;
-        height: 200px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-cover {
-        width: 350px;
-        height: 250px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-management {
-        width: 350px;
-        height: 100px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-social-networks {
-        width: 350px;
-        height: 100px;
-        margin: 0 auto;
-    }
 }
 
 /* 640×480
  BlackBerry Bold 9900
  */
 @media screen and (max-width:642px) and (max-height:482px) and (min-width:638px) and (min-height:478px) {
-    .content > div {
-        vertical-align: top;
-    }
-
     .sr-wrapper {
-        width: 500px;
+        width: 600px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
         display: inline-block;
-        width: 245px;
-        height: 150px;
-        margin: 10px 10px 20px 0;
+        vertical-align: top;
+        width: 270px;
+        height: 140px;
+        margin: 0 10px 20px 0;
     }
 
     .sr-cover {
         display: inline-block;
-        width: 245px;
-        height: 150px;
-        margin: 10px 0 20px 0;
-    }
-
-    .sr-cover > div {
-        background-size: 245px 150px;
+        vertical-align: top;
+        width: 270px;
+        height: 140px;
+        margin: 0 0 20px 0;
     }
 
     .sr-management {
-        width: 500px;
-        height: 130px;
+        width: 550px;
+        height: 100px;
         margin: 0 auto 20px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 120px;
-        height: 120px;
-        margin: 5px 22px;
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 80px;
+        height: 80px;
+        margin: 10px 5px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 60px;
+    }
+
+    .sr-button-plus {
+        background-size: 60px;
     }
 
     .sr-social-networks {
-        width: 500px;
-        height: 130px;
+        width: 550px;
+        height: 100px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 60px;
+        line-height: 100px;
     }
 }
 
@@ -426,58 +366,58 @@
  */
 @media screen and (max-width:770px) and (max-height:1282px) and (min-width:766px) and (min-height:1278px) {
     .sr-wrapper {
-        width: 500px;
+        width: 700px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        width: 500px;
-        height: 300px;
-        margin: 0 auto 20px;
+        width: 650px;
+        height: 320px;
+        margin: 0 auto 40px;
     }
 
     .sr-cover {
-        width: 500px;
-        height: 500px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-cover > div {
-        background-size: 500px 500px;
+        width: 650px;
+        height: 320px;
+        margin: 0 auto 40px;
     }
 
     .sr-management {
-        width: 500px;
-        height: 130px;
-        margin: 0 auto 20px;
+        width: 650px;
+        height: 160px;
+        margin: 0 auto 40px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
+    .sr-button-minus,
+    .sr-button-plus {
         width: 120px;
         height: 120px;
-        margin: 5px 22px;
+        margin: 20px 10px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 90px;
+    }
+
+    .sr-button-plus {
+        background-size: 90px;
     }
 
     .sr-social-networks {
-        width: 500px;
-        height: 130px;
+        width: 650px;
+        height: 160px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 90px;
+        line-height: 160px;
     }
 }
 
@@ -505,58 +445,58 @@
  */
 @media screen and (max-width:722px) and (max-height:1282px) and (min-width:718px) and (min-height:1278px) {
     .sr-wrapper {
-        width: 500px;
+        width: 700px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        width: 500px;
-        height: 300px;
-        margin: 0 auto 20px;
+        width: 650px;
+        height: 320px;
+        margin: 0 auto 40px;
     }
 
     .sr-cover {
-        width: 500px;
-        height: 500px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-cover > div {
-        background-size: 500px 500px;
+        width: 650px;
+        height: 320px;
+        margin: 0 auto 40px;
     }
 
     .sr-management {
-        width: 500px;
-        height: 130px;
-        margin: 0 auto 20px;
+        width: 650px;
+        height: 160px;
+        margin: 0 auto 40px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
+    .sr-button-minus,
+    .sr-button-plus {
         width: 120px;
         height: 120px;
-        margin: 5px 22px;
+        margin: 20px 10px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 90px;
+    }
+
+    .sr-button-plus {
+        background-size: 90px;
     }
 
     .sr-social-networks {
-        width: 500px;
-        height: 130px;
+        width: 650px;
+        height: 160px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 90px;
+        line-height: 160px;
     }
 }
 
@@ -581,52 +521,52 @@
     }
 
     .sr-logo {
-        width: 500px;
-        height: 300px;
+        width: 450px;
+        height: 250px;
         margin: 0 auto 20px;
     }
 
     .sr-cover {
-        width: 500px;
-        height: 300px;
+        width: 450px;
+        height: 250px;
         margin: 0 auto 20px;
-    }
-
-    .sr-cover > div {
-        background-size: 500px 300px;
     }
 
     .sr-management {
-        width: 500px;
-        height: 130px;
-        margin: 0 auto 20px;
+        width: 450px;
+        height: 180px;
+        margin: 0 auto 30px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 120px;
-        height: 120px;
-        margin: 5px 22px;
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 140px;
+        height: 140px;
+        margin: 20px 5px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 100px;
+    }
+
+    .sr-button-plus {
+        background-size: 100px;
     }
 
     .sr-social-networks {
-        width: 500px;
-        height: 130px;
+        width: 450px;
+        height: 180px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 100px;
+        line-height: 180px;
     }
 }
 
@@ -641,10 +581,6 @@
  Sony Xperia tipo
  */
 @media screen and (max-width:322px) and (max-height:482px) and (min-width:318px) and (min-height:478px) {
-    .content > div {
-        vertical-align: top;
-    }
-
     .sr-wrapper {
         width: 300px;
         margin: 0 auto;
@@ -652,52 +588,52 @@
     }
 
     .sr-logo {
-        width: 300px;
-        height: 100px;
-        margin: 10px auto 5px;
+        width: 290px;
+        height: 120px;
+        margin: 0 auto 10px;
     }
 
     .sr-cover {
-        width: 300px;
-        height: 150px;
-        margin: 0 auto 5px;
-    }
-
-    .sr-cover > div {
-        background-size: 300px 150px;
+        width: 290px;
+        height: 120px;
+        margin: 0 auto 10px;
     }
 
     .sr-management {
-        width: 300px;
+        width: 290px;
         height: 100px;
-        margin: 0 auto 5px;
+        margin: 0 auto 10px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
+    .sr-button-minus,
+    .sr-button-plus {
         width: 80px;
         height: 80px;
-        margin: 10px 20px;
+        margin: 10px 5px;
     }
 
-    .sr-button-volume::after {
-        background-size: 80px;
+    .sr-button-minus {
+        background-size: 60px;
+    }
+
+    .sr-button-plus {
+        background-size: 60px;
     }
 
     .sr-social-networks {
-        width: 300px;
+        width: 290px;
         height: 100px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 10px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 60px;
-        line-height: 80px;
+        font-size: 50px;
+        line-height: 100px;
     }
 }
 
@@ -727,58 +663,58 @@
  */
 @media screen and (max-width:482px) and (max-height:802px) and (min-width:478px) and (min-height:798px) {
     .sr-wrapper {
-        width: 400px;
+        width: 450px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
         width: 400px;
-        height: 250px;
-        margin: 0 auto 10px;
+        height: 200px;
+        margin: 0 auto 20px;
     }
 
     .sr-cover {
         width: 400px;
-        height: 250px;
-        margin: 0 auto 10px;
-    }
-
-    .sr-cover > div {
-        background-size: 400px 250px;
+        height: 230px;
+        margin: 0 auto 20px;
     }
 
     .sr-management {
         width: 400px;
-        height: 130px;
-        margin: 0 auto 10px;
+        height: 140px;
+        margin: 0 auto 30px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 120px;
-        height: 120px;
-        margin: 5px 22px;
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 100px;
+        height: 100px;
+        margin: 20px 5px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 80px;
+    }
+
+    .sr-button-plus {
+        background-size: 80px;
     }
 
     .sr-social-networks {
         width: 400px;
-        height: 130px;
+        height: 140px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 90px;
+        line-height: 140px;
     }
 }
 
@@ -801,58 +737,58 @@
  */
 @media screen and (max-width:1082px) and (max-height:1922px) and (min-width:1079px) and (min-height:1918px) {
     .sr-wrapper {
-        width: 500px;
+        width: 900px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        width: 600px;
-        height: 400px;
-        margin: 0 auto 40px;
+        width: 850px;
+        height: 420px;
+        margin: 0 auto 70px;
     }
 
     .sr-cover {
-        width: 600px;
+        width: 850px;
         height: 600px;
-        margin: 0 auto 40px;
-    }
-
-    .sr-cover > div {
-        background-size: 600px 600px;
+        margin: 0 auto 70px;
     }
 
     .sr-management {
-        width: 600px;
-        height: 200px;
-        margin: 0 auto 40px;
+        width: 850px;
+        height: 220px;
+        margin: 0 auto 70px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 120px;
-        height: 120px;
-        margin: 40px 22px;
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 180px;
+        height: 180px;
+        margin: 20px 10px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 150px;
+    }
+
+    .sr-button-plus {
+        background-size: 150px;
     }
 
     .sr-social-networks {
-        width: 600px;
-        height: 200px;
+        width: 850px;
+        height: 220px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 40px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 180px;
+        line-height: 220px;
     }
 }
 
@@ -861,126 +797,65 @@
  YotaPhone - чб
  */
 @media screen and (max-width:362px) and (max-height:642px) and (min-width:358px) and (min-height:638px) {
-    .content > div {
-        vertical-align: top;
-    }
 
-    .sr-wrapper {
-        width: 300px;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .sr-logo {
-        width: 300px;
-        height: 100px;
-        margin: 10px auto 5px;
-    }
-
-    .sr-cover {
-        width: 300px;
-        height: 300px;
-        margin: 0 auto 5px;
-    }
-
-    .sr-cover > div {
-        background-size: 300px 300px;
-    }
-
-    .sr-management {
-        width: 300px;
-        height: 100px;
-        margin: 0 auto 5px;
-    }
-
-    .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 80px;
-        height: 80px;
-        margin: 10px 20px;
-    }
-
-    .sr-button-volume::after {
-        background-size: 80px;
-    }
-
-    .sr-social-networks {
-        width: 300px;
-        height: 100px;
-        margin: 0 auto;
-    }
-
-    .sr-social-networks > div {
-        margin: 10px 22px;
-    }
-
-    .sr-social-networks a {
-        font-size: 60px;
-        line-height: 80px;
-    }
 }
 
 /* 240×400
  Nokia Asha 311
  */
 @media screen and (max-width:242px) and (max-height:402px) and (min-width:238px) and (min-height:398px) {
-    .content > div {
-        vertical-align: top;
-    }
-
     .sr-wrapper {
-        width: 220px;
+        width: 230px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        width: 220px;
-        height: 90px;
-        margin: 15px auto 5px;
+        width: 230px;
+        height: 100px;
+        margin: 0 auto 7px;
     }
 
     .sr-cover {
         width: 220px;
-        height: 130px;
-        margin: 0 auto 5px;
-    }
-
-    .sr-cover > div {
-        background-size: 220px 130px;
+        height: 140px;
+        margin: 0 auto 7px;
     }
 
     .sr-management {
         width: 220px;
-        height: 70px;
-        margin: 0 auto 5px;
+        height: 60px;
+        margin: 0 auto 7px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 60px;
-        height: 60px;
-        margin: 5px 10px;
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 50px;
+        height: 50px;
+        margin: 5px 5px;
     }
 
-    .sr-button-volume::after {
-        background-size: 60px;
+    .sr-button-minus {
+        background-size: 40px;
+    }
+
+    .sr-button-plus {
+        background-size: 40px;
     }
 
     .sr-social-networks {
         width: 220px;
-        height: 70px;
+        height: 60px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 10px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 50px;
+        font-size: 30px;
         line-height: 60px;
     }
 }
@@ -990,58 +865,58 @@
  */
 @media screen and (max-width:802px) and (max-height:1282px) and (min-width:798px) and (min-height:1278px) {
     .sr-wrapper {
-        width: 500px;
+        width: 700px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        width: 500px;
-        height: 300px;
-        margin: 0 auto 20px;
+        width: 650px;
+        height: 350px;
+        margin: 0 auto 40px;
     }
 
     .sr-cover {
-        width: 500px;
-        height: 500px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-cover > div {
-        background-size: 500px 500px;
+        width: 650px;
+        height: 400px;
+        margin: 0 auto 40px;
     }
 
     .sr-management {
-        width: 500px;
-        height: 130px;
-        margin: 0 auto 20px;
+        width: 650px;
+        height: 160px;
+        margin: 0 auto 40px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
+    .sr-button-minus,
+    .sr-button-plus {
         width: 120px;
         height: 120px;
-        margin: 5px 22px;
+        margin: 20px 10px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 90px;
+    }
+
+    .sr-button-plus {
+        background-size: 90px;
     }
 
     .sr-social-networks {
-        width: 500px;
-        height: 130px;
+        width: 650px;
+        height: 160px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 90px;
+        line-height: 160px;
     }
 }
 
@@ -1051,58 +926,58 @@
  */
 @media screen and (max-width:2562px) and (max-height:1442px) and (min-width:2558px) and (min-height:1438px) {
     .sr-wrapper {
-        width: 500px;
+        width: 700px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        width: 500px;
-        height: 300px;
-        margin: 0 auto 20px;
+        width: 650px;
+        height: 350px;
+        margin: 0 auto 30px;
     }
 
     .sr-cover {
-        width: 500px;
-        height: 500px;
-        margin: 0 auto 20px;
-    }
-
-    .sr-cover > div {
-        background-size: 500px 500px;
+        width: 650px;
+        height: 400px;
+        margin: 0 auto 30px;
     }
 
     .sr-management {
-        width: 500px;
-        height: 130px;
-        margin: 0 auto 20px;
+        width: 650px;
+        height: 200px;
+        margin: 0 auto 30px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 120px;
-        height: 120px;
-        margin: 5px 22px;
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 180px;
+        height: 180px;
+        margin: 10px 10px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 160px;
+    }
+
+    .sr-button-plus {
+        background-size: 160px;
     }
 
     .sr-social-networks {
-        width: 500px;
-        height: 130px;
+        width: 650px;
+        height: 200px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 120px;
+        line-height: 200px;
     }
 }
 
@@ -1112,59 +987,57 @@
  */
 @media screen and (max-width:242px) and (max-height:322px) and (min-width:238px) and (min-height:318px) {
     .sr-wrapper {
-        width: 220px;
+        width: 230px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
-        display: inline-block;
-        width: 110px;
-        height: 50px;
-        margin: 15px auto 5px;
-    }
-
-    .sr-cover {
-        display: inline-block;
-        width: 110px;
-        height: 50px;
+        width: 230px;
+        height: 90px;
         margin: 0 auto 5px;
     }
 
-    .sr-cover > div {
-        background-size: 110px 50px;
+    .sr-cover {
+        width: 220px;
+        height: 90px;
+        margin: 0 auto 5px;
     }
 
     .sr-management {
         width: 220px;
-        height: 70px;
+        height: 60px;
         margin: 0 auto 5px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 60px;
-        height: 60px;
-        margin: 5px 10px;
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 50px;
+        height: 50px;
+        margin: 5px 5px;
     }
 
-    .sr-button-volume::after {
-        background-size: 60px;
+    .sr-button-minus {
+        background-size: 40px;
+    }
+
+    .sr-button-plus {
+        background-size: 40px;
     }
 
     .sr-social-networks {
         width: 220px;
-        height: 70px;
+        height: 60px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 10px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 50px;
+        font-size: 30px;
         line-height: 60px;
     }
 }
@@ -1176,57 +1049,57 @@
  */
 @media screen and (max-width:482px) and (max-height:856px) and (min-width:478px) and (min-height:852px) {
     .sr-wrapper {
-        width: 400px;
+        width: 450px;
         margin: 0 auto;
         padding: 0;
     }
 
     .sr-logo {
         width: 400px;
-        height: 250px;
-        margin: 0 auto 10px;
+        height: 200px;
+        margin: 0 auto 20px;
     }
 
     .sr-cover {
         width: 400px;
-        height: 250px;
-        margin: 0 auto 10px;
-    }
-
-    .sr-cover > div {
-        background-size: 400px 250px;
+        height: 230px;
+        margin: 0 auto 20px;
     }
 
     .sr-management {
         width: 400px;
-        height: 130px;
-        margin: 0 auto 10px;
+        height: 140px;
+        margin: 0 auto 30px;
     }
 
     .sr-button-play,
-    .sr-button-volume,
-    .sr-button-paused {
-        width: 120px;
-        height: 120px;
-        margin: 5px 22px;
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 100px;
+        height: 100px;
+        margin: 20px 5px;
     }
 
-    .sr-button-volume::after {
-        background-size: 120px;
+    .sr-button-minus {
+        background-size: 80px;
+    }
+
+    .sr-button-plus {
+        background-size: 80px;
     }
 
     .sr-social-networks {
         width: 400px;
-        height: 130px;
+        height: 140px;
         margin: 0 auto;
     }
 
     .sr-social-networks > div {
-        margin: 5px 22px;
+        margin: 0 22px;
     }
 
     .sr-social-networks a {
-        font-size: 80px;
-        line-height: 120px;
+        font-size: 90px;
+        line-height: 140px;
     }
 }
