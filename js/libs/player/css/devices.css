@@ -637,6 +637,124 @@
     }
 }
 
+/* 320×568
+ iPhone5
+ */
+@media screen and (max-width:322px) and (max-height:570px) and (min-width:318px) and (min-height:566px) {
+    .sr-wrapper {
+        width: 300px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        width: 290px;
+        height: 120px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-cover {
+        width: 290px;
+        height: 200px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-management {
+        width: 290px;
+        height: 100px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-button-play,
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 80px;
+        height: 80px;
+        margin: 10px 5px;
+    }
+
+    .sr-button-minus {
+        background-size: 60px;
+    }
+
+    .sr-button-plus {
+        background-size: 60px;
+    }
+
+    .sr-social-networks {
+        width: 290px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 0 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 50px;
+        line-height: 100px;
+    }
+}
+@media screen and (max-width:570px) and (max-height:322px) and (min-width:566px) and (min-height:318px) {
+    .sr-wrapper {
+        width: 550px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .sr-logo {
+        display: inline-block;
+        width: 270px;
+        height: 100px;
+        margin: 0 10px 10px 0;
+    }
+
+    .sr-cover {
+        display: inline-block;
+        width: 270px;
+        height: 100px;
+        margin: 0 0 10px 0;
+    }
+
+    .sr-management {
+        width: 550px;
+        height: 80px;
+        margin: 0 auto 10px;
+    }
+
+    .sr-button-play,
+    .sr-button-minus,
+    .sr-button-plus {
+        width: 60px;
+        height: 60px;
+        margin: 10px 5px;
+    }
+
+    .sr-button-minus {
+        background-size: 50px;
+    }
+
+    .sr-button-plus {
+        background-size: 50px;
+    }
+
+    .sr-social-networks {
+        width: 550px;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+    .sr-social-networks > div {
+        margin: 0 22px;
+    }
+
+    .sr-social-networks a {
+        font-size: 50px;
+        line-height: 80px;
+    }
+}
+
 /* 480×800
  HTC Desire SV
  HTC Desire V
